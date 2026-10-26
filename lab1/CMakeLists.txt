@@ -56,7 +56,7 @@ target_link_libraries(post_lib PRIVATE lab1_warnings)
 add_executable(post_machine apps/post_main.cpp)
 target_link_libraries(post_machine PRIVATE post_lib lab1_warnings)
 
-# --- Установка (используется для сборки артефактов релиза) ------------------
+# --- Установка ------------------
 install(TARGETS fifteen post_machine RUNTIME DESTINATION .)
 install(DIRECTORY examples DESTINATION .)
 
