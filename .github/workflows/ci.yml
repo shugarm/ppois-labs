@@ -35,7 +35,7 @@ jobs:
 
       - name: Check code coverage (at least 90 % of lines)
         run: >
-          gcovr --root lab1 --object-directory build --filter 'src/'
+          gcovr --root . --object-directory build --filter 'lab1/src/'
           --print-summary --fail-under-line 90 --xml coverage.xml
 
       - name: Static analysis (cppcheck)
