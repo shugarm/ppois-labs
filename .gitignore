@@ -1,0 +1,30 @@
+# Артефакты сборки
+build/
+cmake-build-*/
+out/
+bin/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.out
+
+# Документация, сгенерированная Doxygen
+docs/
+html/
+
+# Файлы покрытия кода
+*.gcda
+*.gcno
+*.gcov
+coverage*.xml
+coverage*.html
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+.vs/
+*.user
+*.swp
+.DS_Store
